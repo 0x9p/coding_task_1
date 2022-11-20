@@ -1,0 +1,18 @@
+# build
+/http
+
+# misc
+.DS_Store
+
+# IntelliJ Idea
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib

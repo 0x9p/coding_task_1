@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  postgres:
+    image: postgres:13-alpine
+    environment:
+      POSTGRES_DB: coding_task_1
+      POSTGRES_USER: developer
+      POSTGRES_PASSWORD: qwaszx
+    ports:
+      - "5432:5432"
